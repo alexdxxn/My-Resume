@@ -1,0 +1,57 @@
+#profile-img{
+    height: 175px;
+    border-radius: 50%;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #493EE6, #A7F52F, #05FFD3);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+.background-image{
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel{
+  width: 80%;
+  margin: auto;
+}
+
+img{
+  object-fit: cover;
+}
+
+.ula{
+  border-radius: 20px;
+}
+
+#skill-title{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+li{
+  list-style: none;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
